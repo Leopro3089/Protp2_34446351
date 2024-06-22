@@ -1,0 +1,111 @@
+h1{
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic; 
+}
+
+body {
+    background-color: gray;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 }
+.a1{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    }    
+
+header {
+background-color: #4557bd;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+section {
+padding: 20px; /* espaciado para la sección de 20 pixeles */}
+footer {
+background-color: #aeb2c581; /* Color de fondo del footer */
+color: #0c0300ea;
+padding: 20px 0;
+text-align: center; }
+.footer-content {
+max-width: 800px; /* Ancho máximo del contenido del footer */
+margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+text-align: center; }
+
+
+/* Estilos para el nav y enlaces de ul y li */
+nav {
+    text-align: center;
+    background-color: #4c5baf;
+    padding: 10px;
+    }
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+    nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    }
+    nav ul li a:hover {
+    background-color: #2f186e;
+    }
+    
+  /* Estilos para las imágenes */
+/*img {
+    display: block;  Para eliminar el espacio adicional que algunos navegadores agregan a las img.
+    margin: 0 auto;  Centrar las imágenes horizontalmente 
+    max-width: 100%; Asegurar que las imágenes no excedan el ancho del contenedor 
+    border: 3px solid #456bbd; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.
+    border-radius: 10px; } Borde redondeado de 10px para suavizar el contorno */  
+
+.footer{
+    text-align: center;
+    color:black;
+}
+.social{
+    display:inline-flex;
+    margin-botton:15px;
+}
+.social a {
+    display:block;
+    min-height: 48px;
+    width: 48px;
+    background-color:#010e3681 ;
+    margin: 0 15px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #0f0202;
+    font-size: 20px;
+
+}
+.social a:hover {
+    background-color: #ffffff;
+}
+.carousel-interno {
+    display: inline-flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+.centered-img {
+    width: auto; /* Ajusta el ancho automáticamente */
+    max-width: 100%; /* Mantiene el ancho máximo al 100% del contenedor */
+    height: auto; /* Mantiene la altura proporcional */
+}
+form{
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+
+}
